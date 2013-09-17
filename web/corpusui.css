@@ -1,0 +1,102 @@
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+#sample_container_id {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#sample_text_id {
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 140px;
+}
+
+#header
+{
+  padding:0px;
+  border:1px solid gray;
+  margin:1px;  
+}
+
+#titlebar
+{
+  padding:0px;
+  border:1px solid gray;
+  margin:1px;  
+}
+
+#titlebar-inner
+{
+  padding:0px;
+  border:1px solid gray;
+  margin:1px;  
+}
+
+#container
+{
+  padding:10px;
+  border:1px solid gray;
+  margin:1px; 
+}
+
+#searchBar
+{
+  padding:10px;
+  border:1px solid gray;
+  margin:1px;
+}
+#searchBox
+{
+  background:yellow;
+  padding:10px;
+  border:1px solid gray;
+  margin:1px;
+}
+
+#searchButton
+{
+  background:blue;
+  padding:10px;
+  border:1px solid gray;
+  margin:1px;
+}
+
+#radioButtons
+{
+  padding:10px;
+  border:1px solid gray;
+  margin:1px;
+}
+
+.resultContainer
+{
+  padding:10px;
+  border:1px solid gray;
+  margin:1px;
+  width: 100%;
+}
+
+.redBox
+{
+    background:red;
+    border:1px solid #000;
+    margin:1px;
+    width: 200px;
+    height: 100px;
+}
+

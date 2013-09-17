@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+  <head>
+    
+    <title>Corpus UI</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" media="all" href="lib/dist/css/bootstrap.min.css"/>
+    
+  </head>
+
+  <body>
+    
+    <div id="container" class="container">       
+            
+      <div id="header">
+        <nav id="navagation" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/solas-match/">Home</a>
+            </li> 
+            <li  >
+              <a href="/solas-match/org/dashboard/">Dashboard</a>
+            </li>
+            <li >
+              <a href="/solas-match/2/profile/">Profile</a>
+            </li>
+            <li >
+              <a href="/solas-match/static/videos/">Videos</a>
+            </li>
+             <li >
+              <a href="/solas-match/static/faq/">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div> <!-- header -->
+           
+      <div id="search-bar">
+        <table>
+          <tr>
+            <td width="50%">
+              <div id="search-box">   
+                <label>Search</label>
+                <input type = "text"
+                 id = "search-text"
+                 value = "Enter text here" />
+              </div> <!-- search-box -->
+            </td>
+            <td width="50%">
+              <div id="search-button">                
+                <input type = "submit" class="btn btn-primary" />                
+              </div> <!-- search-button -->
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"> 
+              <div id="radio-buttons">                  
+                <p>
+                  <label>Radio buttons</label>            
+                  <input type = "radio"
+                      name = "mode"
+                      id = "text-selection"
+                      value = "Text"
+                      checked = "checked" />                  
+                  <label for = "text-selection">Text</label>
+                  
+                  <input type = "radio"
+                      name = "mode"
+                      id = "phrase-selection"
+                      value = "Phrase" />          
+                  <label for = "phrase-selection">Phrase</label>
+                </p> 
+              </div> <!-- radio-buttons -->   
+            </td>
+          </tr>             
+        </table>                     
+      </div> <!-- search-bar-->
+        
+      <div id="input-document">
+          <table>
+            <tr>
+              <td>
+                <div id="databse-name-box">   
+                  <label>Get all documents in Database</label>
+                  <input type = "text"
+                   id = "database-name"
+                   value = "NewFolder" />
+                </div> <!-- databse-name-box -->
+              </td>
+              <td>
+                <div id="doc-submit-button">                
+                  <button id="a1" type = "button" class="btn btn-primary">Submit</button>                
+                </div> <!-- doc-submit-button -->
+              </td>
+            </tr>
+          </table>
+      </div> 
+  
+      <div id="search-container" class="result-container">
+        <table>
+          <tr>
+            <td colspan="2" width="60%">
+              <div id="search-results">
+                <ul id= "domain-list" class="nav nav-tabs nav-stacked">
+                  
+                </ul>  
+              </div>
+            </td>
+            <td width="30%">
+              <div >
+                <ul>
+                  <li><button id="download-selected-search"type="button" class="btn btn-primary">Download Selected</button></li>
+                  <li><button id="download-all-search"type="button" class="btn btn-primary">Download All</button></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div> <!-- result-container -->
+      
+      <div id="domain-container" class="result-container">
+        <table>
+          <tr>
+            <td width="30%">
+              <div id="domain-list">
+              <!-- lists must be hrefs for css to take effect -->
+                <ul class="nav nav-tabs nav-stacked">
+                  <li><a href="#">test 1</a></li>
+                  <li><a href="#">test 2</a></li>
+                  <li><a href="#">test 3</a></li>
+                </ul>
+              </div>
+            </td>
+            <td width="30%">
+              <div id="domain-results">
+                <ul class="nav nav-tabs nav-stacked">
+                  <li><a href="#">test 1</a></li>
+                  <li><a href="#">test 2</a></li>
+                  <li><a href="#">test 3</a></li>
+                </ul>
+              </div>
+            </td>
+            <td width="30%">
+              <div>
+                <ul>
+                  <li><button id="download-selected-domain" type="button" class="btn btn-primary">Download Selected</button></li>
+                  <li><button id="download-all-domain" type="button" class="btn btn-primary">Download All</button></li>
+                </ul>  
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div> <!-- result-container -->
+        
+    </div> <!-- container -->
+   
+    <script type="application/dart" src="corpusui.dart"></script>
+      
+    <script src="../packages/browser/dart.js"></script>
+     
+  </body>
+   
+    
+</html> 
