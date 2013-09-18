@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+  <head>
+    
+    <title>Corpus UI</title>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" media="all" href="lib/dist/css/bootstrap.min.css"/>
+    
+  </head>
+
+  <body>
+    
+    <div id="container" class="container">
+      
+      <h1 class="page-header">
+        UL Corpus
+        <small>An interface for downloading xliff files</small>
+      </h1>       
+            
+      <!--div id="header">
+        <nav id="navagation" class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/solas-match/">Home</a>
+            </li> 
+            <li  >
+              <a href="/solas-match/org/dashboard/">Dashboard</a>
+            </li>
+            <li >
+              <a href="/solas-match/2/profile/">Profile</a>
+            </li>
+            <li >
+              <a href="/solas-match/static/videos/">Videos</a>
+            </li>
+             <li >
+              <a href="/solas-match/static/faq/">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div> <!-- header -->
+           
+      <fieldset id="search-bar" disabled>
+        <table>
+          <tr>
+            <td width="50%">
+              <div id="search-box">   
+                <label>Search</label>
+                <input type = "text" id = "search-text" value = "Enter text here" />
+              </div> <!-- search-box -->
+            </td>
+            <td width="50%">
+              <div id="search-button">                
+                <input type="submit" class="btn btn-primary" />                
+              </div> <!-- search-button -->
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"> 
+              <div id="radio-buttons">                  
+                <p>
+                  <label>Radio buttons</label>            
+                  <input type = "radio" name = "mode" id = "text-selection" value = "Text"
+                      checked = "checked" />                
+                  <label for = "text-selection">Text</label>
+                  
+                  <input type = "radio" name = "mode" id = "phrase-selection" value = "Phrase" />          
+                  <label for = "phrase-selection">Phrase</label>
+                </p> 
+              </div> <!-- radio-buttons -->   
+            </td>
+          </tr>             
+        </table>                     
+      </fieldset> <!-- search-bar-->
+        
+      <div id="input-document" class="result-container">
+          <table class="table">
+            <thead>
+              <th width="25%">Databases</th>
+              <th width="25%">Domains</th>
+              <th width="25%">Documents</th>
+            </thead>
+            <tr>
+              <td width="25%">
+                <div id="database-select"></div>
+              </td>
+              <td width="25%">
+                <div id="domain-select"></div>
+              </td>
+              <td width="25%">
+                <div id="document-select"></div>
+              </td>
+              <td width="25%">
+                <div >
+                  <ul>
+                    <li><button id="download-selected" type="button" class="btn btn-primary">Download Selected</button></li>
+                    <br />
+                    <li><button id="download-all"type="button" class="btn btn-primary">Download All</button></li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4" style="text-align: center">
+                <label>Download Type:</label>
+                <input id="fullDocRadioBtn" type="radio" name="download-type" value="docs" checked/> Full Documents
+                <input id="transUnitRadioBtn" type="radio" name="download-type" value="trans-units" /> Trans-Units
+              </td>
+          </table>
+      </div> 
+    </div> <!-- container -->
+      
+    <iframe id="download-frame" src="" width="1" height="1" frameborder="no"></iframe>
+   
+    <script type="application/dart" src="corpusui.dart"></script>
+      
+    <script src="packages/browser/dart.js"></script>
+     
+  </body>
+   
+    
+</html> 
