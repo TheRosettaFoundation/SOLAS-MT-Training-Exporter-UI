@@ -18,6 +18,7 @@ class CorpusUI
   List<String> databases;
   List<String> domains;
   List<String> docIds;
+  String uniqueString;
   
   int selectedDatabase;
   int selectedDomain;
@@ -25,6 +26,7 @@ class CorpusUI
   
   CorpusUI()
   {
+    uniqueString = "jbseakyugrfvbi_fbveaiun";
     selectedDatabase = -1;
     selectedDomain = -1;
     selectedDocs = new List<int>();
@@ -44,7 +46,7 @@ class CorpusUI
       databases.forEach((String dbName) {
         LIElement db = new LIElement();
         AnchorElement link = new AnchorElement()
-        ..id = dbName
+        ..id = dbName.replaceAll(" ", uniqueString)
         ..text = dbName;
         link.onClick.listen((MouseEvent e) => databaseClicked(e));
         db.append(link);
@@ -101,7 +103,7 @@ class CorpusUI
     int clickedIndex = databases.indexOf(e.target.text);
     if (clickedIndex != selectedDatabase) {
       if (selectedDatabase >= 0) {
-        AnchorElement oldSelected = query("#" + databases.elementAt(selectedDatabase));
+        AnchorElement oldSelected = query("#" + databases.elementAt(selectedDatabase).replaceAll(" ", uniqueString));
         oldSelected.parent.classes.remove("active");
       }
       selectedDatabase = clickedIndex;
@@ -120,7 +122,7 @@ class CorpusUI
     int clickedElement = domains.indexOf(e.target.text);
     if (selectedDomain != clickedElement) {
       if (selectedDomain >= 0) {
-        AnchorElement oldSelected = query("#" + domains.elementAt(selectedDomain));
+        AnchorElement oldSelected = query("#" + domains.elementAt(selectedDomain).replaceAll(" ", uniqueString));
         oldSelected.parent.classes.remove("active");
       }
       selectedDomain = clickedElement;
@@ -154,7 +156,7 @@ class CorpusUI
     domains.forEach((String domain) {
       LIElement domainEntry = new LIElement();
       AnchorElement link = new AnchorElement()
-      ..id = domain
+      ..id = domain.replaceAll(" ", uniqueString)
       ..text = domain;
       link.onClick.listen((MouseEvent e) => domainClicked(e));
       domainEntry.append(link);
@@ -171,7 +173,7 @@ class CorpusUI
     UListElement documentList = new UListElement()
     ..classes.add("nav")
     ..classes.add("nav-pills")
-    ..classes.add("nav-stacked");;
+    ..classes.add("nav-stacked");
     docIds.forEach((String docId) {
       LIElement docEntry = new LIElement();
       AnchorElement link = new AnchorElement()
