@@ -143,7 +143,7 @@ $$.Closure$_standardAttributeValidator = [W, {"": "Closure;call$4,$name"}];
 
 $$.Closure$_uriAttributeValidator = [W, {"": "Closure;call$4,$name"}];
 
-init.mangledNames = {$$dom_addEventListener$3: "$dom_addEventListener:3:0", $$dom_removeEventListener$3: "$dom_removeEventListener:3:0", $add: "+:1:0", $and: "&:1:0", $ge: ">=:1:0", $gt: ">:1:0", $index: "[]:1:0", $indexSet: "[]=:2:0", $lt: "<:1:0", $shl: "<<:1:0", $shr: ">>:1:0", $sub: "-:1:0", $xor: "^:1:0", _addError$1: "_addError:1:0", _addPending$1: "_addPending:1:0", _callback$2: "_callback:2:0", _checkReplyTo$1: "_checkReplyTo:1:0", _complete$1: "_complete:1:0", _completeError$1: "_completeError:1:0", _completeError$2: "_completeError:2:0", _dispatch$1: "_dispatch:1:0", _expectsEvent$1: "_expectsEvent:1:0", _extractElements$1: "_extractElements:1:0", _liblib5$_add$1: "_add:1:0", _liblib5$_onData$1: "_onData:1:0", _onError$1: "_onError:1:0", _onValue$1: "_onValue:1:0", _removeListeners$0: "_removeListeners:0:0", _setError$1: "_setError:1:0", _setRemoveAfterFiring$0: "_setRemoveAfterFiring:0:0", _setValue$1: "_setValue:1:0", _toggleEventId$0: "_toggleEventId:0:0", _whenCompleteAction$0: "_whenCompleteAction:0:0", add$1: "add:1:0", allowsAttribute$3: "allowsAttribute:3:0", allowsElement$1: "allowsElement:1:0", allowsUri$1: "allowsUri:1:0", call$0: "call:0:0", call$1: "call:1:0", call$1$growable: "call:1:0:growable", call$2: "call:2:0", call$2$onError: "call:2:0:onError", call$2$treeSanitizer: "call:2:0:treeSanitizer", call$3: "call:3:0", call$3$async: "call:3:0:async", call$3$onDone$onError: "call:3:0:onDone:onError", call$3$treeSanitizer$validator: "call:3:0:treeSanitizer:validator", call$4: "call:4:0", call$4$cancelOnError$onDone$onError: "call:4:0:cancelOnError:onDone:onError", cancel$0: "cancel:0:0", catchError$1: "catchError:1:0", clear$0: "clear:0:0", codeUnitAt$1: "codeUnitAt:1:0", contains$1: "contains:1:0", containsKey$1: "containsKey:1:0", databaseChanged$0: "databaseChanged:0:0", databaseClicked$1: "databaseClicked:1:0", deserializeCloseToken$1: "deserializeCloseToken:1:0", deserializeIsolateSink$1: "deserializeIsolateSink:1:0", deserializeSendPort$1: "deserializeSendPort:1:0", documentClicked$1: "documentClicked:1:0", domainChanged$0: "domainChanged:0:0", domainClicked$1: "domainClicked:1:0", downloadAllClicked$1: "downloadAllClicked:1:0", downloadSelectedClicked$1: "downloadSelectedClicked:1:0", elementAt$1: "elementAt:1:0", eval$1: "eval:1:0", executeCallback$1: "executeCallback:1:0", executePeriodicCallback$1: "executePeriodicCallback:1:0", expectCallback$0: "expectCallback:0:0", forEach$1: "forEach:1:0", get$_callback: "_callback", get$_contents: "_contents", get$_duration: "_duration", get$_error: "_error", get$_errorTest: "_errorTest", get$_errorZone: "_errorZone", get$_eventState: "_eventState", get$_handle: "_handle", get$_hasError: "_hasError", get$_id: "_id", get$_isChained: "_isChained", get$_isComplete: "_isComplete", get$_isFiring: "_isFiring", get$_isolateId: "_isolateId", get$_key: "_key", get$_liblib1$_element: "_element", get$_liblib1$_value: "_value", get$_liblib5$_next: "_next", get$_liblib5$_previous: "_previous", get$_name: "_name", get$_next: "_next", get$_nextListener: "_nextListener", get$_onError: "_onError", get$_onValue: "_onValue", get$_previous: "_previous", get$_receivePort: "_receivePort", get$_removeAfterFiring: "_removeAfterFiring", get$_state: "_state", get$_value: "_value", get$_whenCompleteAction: "_whenCompleteAction", get$_workerId: "_workerId", get$_zone: "_zone", get$attributes: "attributes", get$checked: "checked", get$className: "className", get$classes: "classes", get$corpus: "corpus", get$current: "current", get$databases: "databases", get$docIds: "docIds", get$domains: "domains", get$hostname: "hostname", get$href: "href", get$innerHtml: "innerHtml", get$isAccessor: "isAccessor", get$isEmpty: "isEmpty", get$isGetter: "isGetter", get$isSetter: "isSetter", get$isolateStatics: "isolateStatics", get$iterator: "iterator", get$keys: "keys", get$lastChild: "lastChild", get$length: "length", get$memberName: "memberName", get$name: "name", get$namedArguments: "namedArguments", get$next: "next", get$nodeType: "nodeType", get$nodes: "nodes", get$parent: "parent", get$port: "port", get$positionalArguments: "positionalArguments", get$previousNode: "previousNode", get$protocol: "protocol", get$responseText: "responseText", get$sink: "sink", get$status: "status", get$tagName: "tagName", get$target: "target", get$text: "text", get$uniqueString: "uniqueString", get$uriPolicy: "uriPolicy", get$urls: "urls", get$value: "value", get$values: "values", handleNext$1: "handleNext:1:0", handleUncaughtError$1: "handleUncaughtError:1:0", inSameErrorZone$1: "inSameErrorZone:1:0", indexOf$1: "indexOf:1:0", listen$3$onDone$onError: "listen:3:0:onDone:onError", lookup$1: "lookup:1:0", map$1: "map:1:0", matchAsPrefix$2: "matchAsPrefix:2:0", modify$1: "modify:1:0", moveNext$0: "moveNext:0:0", perform$1: "perform:1:0", process$0: "process:0:0", readClasses$0: "readClasses:0:0", remove$0: "remove:0:0", remove$1: "remove:1:0", replaceAll$2: "replaceAll:2:0", runIteration$0: "runIteration:0:0", sanitizeNode$1: "sanitizeNode:1:0", send$2: "send:2:0", set$_eventState: "_eventState=", set$_handle: "_handle=", set$_isChained: "_isChained=", set$_liblib1$_value: "_value=", set$_liblib5$_next: "_next=", set$_liblib5$_previous: "_previous=", set$_next: "_next=", set$_nextListener: "_nextListener=", set$_previous: "_previous=", set$_state: "_state=", set$className: "className=", set$databases: "databases=", set$docIds: "docIds=", set$domains: "domains=", set$href: "href=", set$length: "length=", set$next: "next=", split$1: "split:1:0", startsWith$1: "startsWith:1:0", stringifyValue$1: "stringifyValue:1:0", substring$1: "substring:1:0", then$1: "then:1:0", then$2$onError: "then:2:0:onError", toJson$0: "toJson:0:0", toList$0: "toList:0:0", toList$1$growable: "toList:1:0:growable", toLowerCase$0: "toLowerCase:0:0", trim$0: "trim:0:0", visitCloseToken$1: "visitCloseToken:1:0", visitIsolateSink$1: "visitIsolateSink:1:0", visitList$1: "visitList:1:0", visitMap$1: "visitMap:1:0", visitPrimitive$1: "visitPrimitive:1:0", visitSendPort$1: "visitSendPort:1:0", write$1: "write:1:0", writeAll$2: "writeAll:2:0"};
+init.mangledNames = {$$dom_addEventListener$3: "$dom_addEventListener:3:0", $$dom_removeEventListener$3: "$dom_removeEventListener:3:0", $add: "+:1:0", $and: "&:1:0", $ge: ">=:1:0", $gt: ">:1:0", $index: "[]:1:0", $indexSet: "[]=:2:0", $lt: "<:1:0", $shl: "<<:1:0", $shr: ">>:1:0", $sub: "-:1:0", $xor: "^:1:0", _addError$1: "_addError:1:0", _addPending$1: "_addPending:1:0", _callback$2: "_callback:2:0", _checkReplyTo$1: "_checkReplyTo:1:0", _complete$1: "_complete:1:0", _completeError$1: "_completeError:1:0", _completeError$2: "_completeError:2:0", _dispatch$1: "_dispatch:1:0", _expectsEvent$1: "_expectsEvent:1:0", _extractElements$1: "_extractElements:1:0", _liblib5$_add$1: "_add:1:0", _liblib5$_onData$1: "_onData:1:0", _onError$1: "_onError:1:0", _onValue$1: "_onValue:1:0", _removeListeners$0: "_removeListeners:0:0", _setError$1: "_setError:1:0", _setRemoveAfterFiring$0: "_setRemoveAfterFiring:0:0", _setValue$1: "_setValue:1:0", _toggleEventId$0: "_toggleEventId:0:0", _whenCompleteAction$0: "_whenCompleteAction:0:0", add$1: "add:1:0", allowsAttribute$3: "allowsAttribute:3:0", allowsElement$1: "allowsElement:1:0", allowsUri$1: "allowsUri:1:0", call$0: "call:0:0", call$1: "call:1:0", call$1$growable: "call:1:0:growable", call$2: "call:2:0", call$2$onError: "call:2:0:onError", call$2$treeSanitizer: "call:2:0:treeSanitizer", call$3: "call:3:0", call$3$async: "call:3:0:async", call$3$onDone$onError: "call:3:0:onDone:onError", call$3$treeSanitizer$validator: "call:3:0:treeSanitizer:validator", call$4: "call:4:0", call$4$cancelOnError$onDone$onError: "call:4:0:cancelOnError:onDone:onError", cancel$0: "cancel:0:0", catchError$1: "catchError:1:0", clear$0: "clear:0:0", codeUnitAt$1: "codeUnitAt:1:0", contains$1: "contains:1:0", containsKey$1: "containsKey:1:0", databaseChanged$0: "databaseChanged:0:0", databaseClicked$1: "databaseClicked:1:0", deserializeCloseToken$1: "deserializeCloseToken:1:0", deserializeIsolateSink$1: "deserializeIsolateSink:1:0", deserializeSendPort$1: "deserializeSendPort:1:0", documentClicked$1: "documentClicked:1:0", domainChanged$0: "domainChanged:0:0", domainClicked$1: "domainClicked:1:0", downloadAllClicked$1: "downloadAllClicked:1:0", downloadSelectedClicked$1: "downloadSelectedClicked:1:0", elementAt$1: "elementAt:1:0", eval$1: "eval:1:0", executeCallback$1: "executeCallback:1:0", executePeriodicCallback$1: "executePeriodicCallback:1:0", expectCallback$0: "expectCallback:0:0", forEach$1: "forEach:1:0", get$_callback: "_callback", get$_contents: "_contents", get$_duration: "_duration", get$_error: "_error", get$_errorTest: "_errorTest", get$_errorZone: "_errorZone", get$_eventState: "_eventState", get$_handle: "_handle", get$_hasError: "_hasError", get$_id: "_id", get$_isChained: "_isChained", get$_isComplete: "_isComplete", get$_isFiring: "_isFiring", get$_isolateId: "_isolateId", get$_key: "_key", get$_liblib1$_element: "_element", get$_liblib1$_value: "_value", get$_liblib5$_next: "_next", get$_liblib5$_previous: "_previous", get$_name: "_name", get$_next: "_next", get$_nextListener: "_nextListener", get$_onError: "_onError", get$_onValue: "_onValue", get$_previous: "_previous", get$_receivePort: "_receivePort", get$_removeAfterFiring: "_removeAfterFiring", get$_state: "_state", get$_value: "_value", get$_whenCompleteAction: "_whenCompleteAction", get$_workerId: "_workerId", get$_zone: "_zone", get$attributes: "attributes", get$checked: "checked", get$className: "className", get$classes: "classes", get$corpus: "corpus", get$current: "current", get$databases: "databases", get$docIds: "docIds", get$domains: "domains", get$hostname: "hostname", get$href: "href", get$innerHtml: "innerHtml", get$isAccessor: "isAccessor", get$isEmpty: "isEmpty", get$isGetter: "isGetter", get$isSetter: "isSetter", get$isolateStatics: "isolateStatics", get$iterator: "iterator", get$keys: "keys", get$lastChild: "lastChild", get$length: "length", get$memberName: "memberName", get$name: "name", get$namedArguments: "namedArguments", get$next: "next", get$nodeType: "nodeType", get$nodes: "nodes", get$parent: "parent", get$port: "port", get$positionalArguments: "positionalArguments", get$previousNode: "previousNode", get$protocol: "protocol", get$responseText: "responseText", get$sink: "sink", get$status: "status", get$tagName: "tagName", get$target: "target", get$text: "text", get$uriPolicy: "uriPolicy", get$urls: "urls", get$value: "value", get$values: "values", handleNext$1: "handleNext:1:0", handleUncaughtError$1: "handleUncaughtError:1:0", inSameErrorZone$1: "inSameErrorZone:1:0", indexOf$1: "indexOf:1:0", listen$3$onDone$onError: "listen:3:0:onDone:onError", lookup$1: "lookup:1:0", map$1: "map:1:0", matchAsPrefix$2: "matchAsPrefix:2:0", modify$1: "modify:1:0", moveNext$0: "moveNext:0:0", perform$1: "perform:1:0", process$0: "process:0:0", readClasses$0: "readClasses:0:0", remove$0: "remove:0:0", remove$1: "remove:1:0", replaceAll$2: "replaceAll:2:0", runIteration$0: "runIteration:0:0", sanitizeNode$1: "sanitizeNode:1:0", send$2: "send:2:0", set$_eventState: "_eventState=", set$_handle: "_handle=", set$_isChained: "_isChained=", set$_liblib1$_value: "_value=", set$_liblib5$_next: "_next=", set$_liblib5$_previous: "_previous=", set$_next: "_next=", set$_nextListener: "_nextListener=", set$_previous: "_previous=", set$_state: "_state=", set$className: "className=", set$databases: "databases=", set$docIds: "docIds=", set$domains: "domains=", set$href: "href=", set$length: "length=", set$next: "next=", split$1: "split:1:0", startsWith$1: "startsWith:1:0", stringifyValue$1: "stringifyValue:1:0", substring$1: "substring:1:0", then$1: "then:1:0", then$2$onError: "then:2:0:onError", toJson$0: "toJson:0:0", toList$0: "toList:0:0", toList$1$growable: "toList:1:0:growable", toLowerCase$0: "toLowerCase:0:0", trim$0: "trim:0:0", visitCloseToken$1: "visitCloseToken:1:0", visitIsolateSink$1: "visitIsolateSink:1:0", visitList$1: "visitList:1:0", visitMap$1: "visitMap:1:0", visitPrimitive$1: "visitPrimitive:1:0", visitSendPort$1: "visitSendPort:1:0", write$1: "write:1:0", writeAll$2: "writeAll:2:0"};
 (function (reflectionData) {
   function map(x){x={x:x};delete x.x;return x}
   if (!init.libraries) init.libraries = [];
@@ -306,9 +306,7 @@ CorpusHelper_constructDownloadSelectedString: function(database, domain, docIds,
     t1.queryString_0 = C.JSString_methods.substring$2(t2, 0, t2.length - 1);
   }
   t1.queryString_0 = t1.queryString_0 + "'";
-  t2 = J.getInterceptor$ns(url);
-  H.Primitives_printString("Calling " + H.S(t2.$add(url, t1.queryString_0)));
-  return t2.$add(url, t1.queryString_0);
+  return J.$add$ns(url, t1.queryString_0);
 },
 
 "+constructDownloadSelectedString:3:1": 1,
@@ -321,7 +319,6 @@ CorpusHelper_getCorpusDatabases_closure: {"": "Closure;",
     t1 = J.getInterceptor$x(response);
     if (J.$lt$n(t1.get$status(response), 400) === true)
       if (J.$gt$n(J.get$length$asx(t1.get$responseText(response)), 0) === true) {
-        H.Primitives_printString(C.JSString_methods.$add("Databases Response Text: ", t1.get$responseText(response)));
         doc = new DOMParser().parseFromString(t1.get$responseText(response), "text/xml");
         doc.queryAll$1;
         dbs = W._FrozenElementList$_wrap(doc.querySelectorAll("db"), null);
@@ -352,7 +349,6 @@ CorpusHelper_getDatabaseDomains_closure: {"": "Closure;",
     t1 = J.getInterceptor$x(response);
     if (J.$lt$n(t1.get$status(response), 400) === true)
       if (J.$gt$n(J.get$length$asx(t1.get$responseText(response)), 0) === true) {
-        H.Primitives_printString(C.JSString_methods.$add("Domains Response text: ", t1.get$responseText(response)));
         doc = new DOMParser().parseFromString(t1.get$responseText(response), "text/xml");
         doc.queryAll$1;
         domainElements = W._FrozenElementList$_wrap(doc.querySelectorAll("domain"), null);
@@ -383,7 +379,6 @@ CorpusHelper_getDomainDocuments_closure: {"": "Closure;",
     t1 = J.getInterceptor$x(response);
     if (J.$lt$n(t1.get$status(response), 400) === true)
       if (J.$gt$n(J.get$length$asx(t1.get$responseText(response)), 0) === true) {
-        H.Primitives_printString(C.JSString_methods.$add("Docs Response text: ", t1.get$responseText(response)));
         doc = new DOMParser().parseFromString(t1.get$responseText(response), "text/xml");
         doc.queryAll$1;
         docs = W._FrozenElementList$_wrap(doc.querySelectorAll("doc"), null);
@@ -3658,7 +3653,7 @@ main_closure: {"": "Closure;",
 
 "+main_closure": [],
 
-CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString<-,selectedDatabase-,selectedDomain-,selectedDocs-",
+CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString-,selectedDatabase-,selectedDomain-,selectedDocs-",
   init$0: function() {
     var element, t1, t2, t3;
     this.loadDatabases$0().then$1(new V.CorpusUI_init_closure(this));
@@ -3716,7 +3711,7 @@ CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString<-,selectedDat
     clickedIndex = J.indexOf$1$asx(this.databases, J.get$text$x(t1.get$target(e)));
     if (!J.$eq(clickedIndex, this.selectedDatabase)) {
       if (J.$ge$n(this.selectedDatabase, 0) === true) {
-        t2 = C.JSString_methods.$add("#", J.replaceAll$2$s(J.elementAt$1$ax(this.databases, this.selectedDatabase), " ", this.uniqueString));
+        t2 = C.JSString_methods.$add("#database_", J.toString$0(this.selectedDatabase));
         t2 = J.get$classes$x(document.querySelector(t2).parentElement);
         t2.remove$1(t2, "active");
       }
@@ -3733,7 +3728,7 @@ CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString<-,selectedDat
     clickedElement = J.indexOf$1$asx(this.domains, J.get$text$x(t1.get$target(e)));
     if (!J.$eq(this.selectedDomain, clickedElement)) {
       if (J.$ge$n(this.selectedDomain, 0) === true) {
-        t2 = C.JSString_methods.$add("#", J.replaceAll$2$s(J.elementAt$1$ax(this.domains, this.selectedDomain), " ", this.uniqueString));
+        t2 = C.JSString_methods.$add("#domain_", J.toString$0(this.selectedDomain));
         t2 = J.get$classes$x(document.querySelector(t2).parentElement);
         t2.remove$1(t2, "active");
       }
@@ -3759,7 +3754,7 @@ CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString<-,selectedDat
   },
   "+documentClicked:1:0": 1,
   databaseChanged$0: function() {
-    var domainSelect, domainList, t1, t2;
+    var domainSelect, domainList, t1, t2, i, domainEntry, e, $arguments;
     domainSelect = document.querySelector("#domain-select");
     domainList = document.createElement("ul");
     t1 = J.getInterceptor$x(domainList);
@@ -3769,13 +3764,38 @@ CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString<-,selectedDat
     t2.add$1(t2, "nav-pills");
     t1 = t1.get$classes(domainList);
     t1.add$1(t1, "nav-stacked");
-    J.forEach$1$ax(this.domains, new V.CorpusUI_databaseChanged_closure(this, domainList));
+    i = 0;
+    while (true) {
+      t1 = J.get$length$asx(this.domains);
+      if (typeof t1 !== "number")
+        throw H.iae(t1);
+      if (!(i < t1))
+        break;
+      domainEntry = document.createElement("li");
+      e = document.createElement("a");
+      e.id = "domain_" + i;
+      e.textContent = J.$index$asx(this.domains, i);
+      e.get$onClick;
+      C.EventStreamProvider_click.forElement$2$useCapture;
+      t1 = new W._ElementEventStreamImpl(e, C.EventStreamProvider_click._eventType, false);
+      t1.$builtinTypeInfo = [null];
+      $arguments = H.substitute(t1.$as_EventStream, H.getRuntimeTypeInfo(t1));
+      t2 = $arguments == null ? null : $arguments[0];
+      t1 = new W._EventStreamSubscription(0, t1._target, t1._eventType, new V.CorpusUI_databaseChanged_closure(this), t1._useCapture);
+      t1.$builtinTypeInfo = [t2];
+      t2 = t1._onData;
+      if (t2 != null && t1._pauseCount <= 0)
+        J.$$dom_addEventListener$3$x(t1._target, t1._eventType, t2, t1._useCapture);
+      domainEntry.appendChild(e);
+      domainList.appendChild(domainEntry);
+      ++i;
+    }
     J.set$innerHtml$x(domainSelect, "");
     domainSelect.appendChild(domainList);
   },
   "+databaseChanged:0:0": 1,
   domainChanged$0: function() {
-    var documentSelect, documentList, t1, t2;
+    var documentSelect, documentList, t1, t2, i, docEntry, e, $arguments;
     C.JSArray_methods.set$length(this.selectedDocs, 0);
     documentSelect = document.querySelector("#document-select");
     documentList = document.createElement("ul");
@@ -3786,7 +3806,32 @@ CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString<-,selectedDat
     t2.add$1(t2, "nav-pills");
     t1 = t1.get$classes(documentList);
     t1.add$1(t1, "nav-stacked");
-    J.forEach$1$ax(this.docIds, new V.CorpusUI_domainChanged_closure(this, documentList));
+    i = 0;
+    while (true) {
+      t1 = J.get$length$asx(this.docIds);
+      if (typeof t1 !== "number")
+        throw H.iae(t1);
+      if (!(i < t1))
+        break;
+      docEntry = document.createElement("li");
+      e = document.createElement("a");
+      e.id = "doc_" + i;
+      e.textContent = J.$index$asx(this.docIds, i);
+      e.get$onClick;
+      C.EventStreamProvider_click.forElement$2$useCapture;
+      t1 = new W._ElementEventStreamImpl(e, C.EventStreamProvider_click._eventType, false);
+      t1.$builtinTypeInfo = [null];
+      $arguments = H.substitute(t1.$as_EventStream, H.getRuntimeTypeInfo(t1));
+      t2 = $arguments == null ? null : $arguments[0];
+      t1 = new W._EventStreamSubscription(0, t1._target, t1._eventType, new V.CorpusUI_domainChanged_closure(this), t1._useCapture);
+      t1.$builtinTypeInfo = [t2];
+      t2 = t1._onData;
+      if (t2 != null && t1._pauseCount <= 0)
+        J.$$dom_addEventListener$3$x(t1._target, t1._eventType, t2, t1._useCapture);
+      docEntry.appendChild(e);
+      documentList.appendChild(docEntry);
+      ++i;
+    }
     J.set$innerHtml$x(documentSelect, "");
     documentSelect.appendChild(documentList);
   },
@@ -3830,7 +3875,7 @@ CorpusUI: {"": "Object;databases@-,domains?-,docIds@-,uniqueString<-,selectedDat
   },
   "+downloadSelectedClicked:1:0": 1,
   CorpusUI$0: function() {
-    this.uniqueString = "jbseakyugrfvbi_fbveaiun";
+    this.uniqueString = "vbi_fb";
     this.selectedDatabase = -1;
     this.selectedDomain = -1;
     var t1 = P.List_List(null, J.JSInt);
@@ -3861,7 +3906,7 @@ CorpusUI$: function() {
 
 CorpusUI_init_closure: {"": "Closure;this_0-",
   call$1: function(success) {
-    var databaseSelect, databaseList, t1, t2;
+    var databaseSelect, databaseList, t1, t2, i, db, e, $arguments, t3;
     databaseSelect = document.querySelector("#database-select");
     databaseList = document.createElement("ul");
     t1 = J.getInterceptor$x(databaseList);
@@ -3872,7 +3917,32 @@ CorpusUI_init_closure: {"": "Closure;this_0-",
     t1 = t1.get$classes(databaseList);
     t1.add$1(t1, "nav-stacked");
     t1 = this.this_0;
-    J.forEach$1$ax(t1.get$databases(), new V.CorpusUI_init__closure(t1, databaseList));
+    i = 0;
+    while (true) {
+      t2 = J.get$length$asx(t1.get$databases());
+      if (typeof t2 !== "number")
+        throw H.iae(t2);
+      if (!(i < t2))
+        break;
+      db = document.createElement("li");
+      e = document.createElement("a");
+      e.id = "database_" + i;
+      e.textContent = J.$index$asx(t1.get$databases(), i);
+      e.get$onClick;
+      C.EventStreamProvider_click.forElement$2$useCapture;
+      t2 = new W._ElementEventStreamImpl(e, C.EventStreamProvider_click._eventType, false);
+      t2.$builtinTypeInfo = [null];
+      $arguments = H.substitute(t2.$as_EventStream, H.getRuntimeTypeInfo(t2));
+      t3 = $arguments == null ? null : $arguments[0];
+      t2 = new W._EventStreamSubscription(0, t2._target, t2._eventType, new V.CorpusUI_init__closure(t1), t2._useCapture);
+      t2.$builtinTypeInfo = [t3];
+      t3 = t2._onData;
+      if (t3 != null && t2._pauseCount <= 0)
+        J.$$dom_addEventListener$3$x(t2._target, t2._eventType, t3, t2._useCapture);
+      db.appendChild(e);
+      databaseList.appendChild(db);
+      ++i;
+    }
     J.set$innerHtml$x(databaseSelect, "");
     databaseSelect.appendChild(databaseList);
   },
@@ -3881,50 +3951,27 @@ CorpusUI_init_closure: {"": "Closure;this_0-",
 
 "+CorpusUI_init_closure": [],
 
-CorpusUI_init__closure: {"": "Closure;this_1-,databaseList_2-",
-  call$1: function(dbName) {
-    var db, link, t1, t2;
-    db = document.createElement("li");
-    link = W.AnchorElement_AnchorElement(null);
-    t1 = this.this_1;
-    link.id = J.replaceAll$2$s(dbName, " ", t1.get$uniqueString());
-    link.textContent = dbName;
-    link.get$onClick;
-    C.EventStreamProvider_click.forElement$2$useCapture;
-    t2 = new W._ElementEventStreamImpl(link, C.EventStreamProvider_click._eventType, false);
-    H.setRuntimeTypeInfo(t2, [null]);
-    t1 = new W._EventStreamSubscription(0, t2._target, t2._eventType, new V.CorpusUI_init___closure(t1), t2._useCapture);
-    H.setRuntimeTypeInfo(t1, [H.getRuntimeTypeArgument(t2, "_EventStream", 0)]);
-    t1._tryResume$0();
-    db.appendChild(link);
-    this.databaseList_2.appendChild(db);
+CorpusUI_init__closure: {"": "Closure;this_1-",
+  call$1: function(e) {
+    return this.this_1.databaseClicked$1(e);
   },
   "+call:1:0": 1
 },
 
 "+CorpusUI_init__closure": [],
 
-CorpusUI_init___closure: {"": "Closure;this_3-",
+CorpusUI_init_closure0: {"": "Closure;this_2-",
   call$1: function(e) {
-    return this.this_3.databaseClicked$1(e);
-  },
-  "+call:1:0": 1
-},
-
-"+CorpusUI_init___closure": [],
-
-CorpusUI_init_closure0: {"": "Closure;this_4-",
-  call$1: function(e) {
-    return this.this_4.downloadSelectedClicked$1(e);
+    return this.this_2.downloadSelectedClicked$1(e);
   },
   "+call:1:0": 1
 },
 
 "+CorpusUI_init_closure": [],
 
-CorpusUI_init_closure1: {"": "Closure;this_5-",
+CorpusUI_init_closure1: {"": "Closure;this_3-",
   call$1: function(e) {
-    return this.this_5.downloadAllClicked$1(e);
+    return this.this_3.downloadAllClicked$1(e);
   },
   "+call:1:0": 1
 },
@@ -3993,68 +4040,23 @@ CorpusUI_domainClicked_closure: {"": "Closure;this_0-",
 
 "+CorpusUI_domainClicked_closure": [],
 
-CorpusUI_databaseChanged_closure: {"": "Closure;this_0-,domainList_1-",
-  call$1: function(domain) {
-    var domainEntry, link, t1, t2;
-    domainEntry = document.createElement("li");
-    link = W.AnchorElement_AnchorElement(null);
-    t1 = this.this_0;
-    link.id = J.replaceAll$2$s(domain, " ", t1.get$uniqueString());
-    link.textContent = domain;
-    link.get$onClick;
-    C.EventStreamProvider_click.forElement$2$useCapture;
-    t2 = new W._ElementEventStreamImpl(link, C.EventStreamProvider_click._eventType, false);
-    H.setRuntimeTypeInfo(t2, [null]);
-    t1 = new W._EventStreamSubscription(0, t2._target, t2._eventType, new V.CorpusUI_databaseChanged__closure(t1), t2._useCapture);
-    H.setRuntimeTypeInfo(t1, [H.getRuntimeTypeArgument(t2, "_EventStream", 0)]);
-    t1._tryResume$0();
-    domainEntry.appendChild(link);
-    this.domainList_1.appendChild(domainEntry);
+CorpusUI_databaseChanged_closure: {"": "Closure;this_0-",
+  call$1: function(e) {
+    return this.this_0.domainClicked$1(e);
   },
   "+call:1:0": 1
 },
 
 "+CorpusUI_databaseChanged_closure": [],
 
-CorpusUI_databaseChanged__closure: {"": "Closure;this_2-",
+CorpusUI_domainChanged_closure: {"": "Closure;this_0-",
   call$1: function(e) {
-    return this.this_2.domainClicked$1(e);
-  },
-  "+call:1:0": 1
-},
-
-"+CorpusUI_databaseChanged__closure": [],
-
-CorpusUI_domainChanged_closure: {"": "Closure;this_0-,documentList_1-",
-  call$1: function(docId) {
-    var docEntry, link, t1, t2;
-    docEntry = document.createElement("li");
-    link = W.AnchorElement_AnchorElement(null);
-    link.id = docId;
-    link.textContent = docId;
-    link.get$onClick;
-    C.EventStreamProvider_click.forElement$2$useCapture;
-    t1 = new W._ElementEventStreamImpl(link, C.EventStreamProvider_click._eventType, false);
-    H.setRuntimeTypeInfo(t1, [null]);
-    t2 = new W._EventStreamSubscription(0, t1._target, t1._eventType, new V.CorpusUI_domainChanged__closure(this.this_0), t1._useCapture);
-    H.setRuntimeTypeInfo(t2, [H.getRuntimeTypeArgument(t1, "_EventStream", 0)]);
-    t2._tryResume$0();
-    docEntry.appendChild(link);
-    this.documentList_1.appendChild(docEntry);
+    return this.this_0.documentClicked$1(e);
   },
   "+call:1:0": 1
 },
 
 "+CorpusUI_domainChanged_closure": [],
-
-CorpusUI_domainChanged__closure: {"": "Closure;this_2-",
-  call$1: function(e) {
-    return this.this_2.documentClicked$1(e);
-  },
-  "+call:1:0": 1
-},
-
-"+CorpusUI_domainChanged__closure": [],
 
 CorpusUI_downloadSelectedClicked_closure: {"": "Closure;this_0-,selectedIds_1-",
   call$1: function(index) {
@@ -5363,7 +5365,7 @@ _Future__propagateToListeners: function(source, listeners) {
     t2.listenerHasValue_1 = null;
     t2.listenerValueOrError_2 = null;
     t2.isPropagationAborted_3 = false;
-    listeners.get$_zone().executeCallback$1(new P._Future__propagateToListeners_closure0(t2, t1, hasError, listeners));
+    listeners.get$_zone().executeCallback$1(new P._Future__propagateToListeners_closure0(t1, t2, hasError, listeners));
     if (t2.isPropagationAborted_3 === true)
       return;
     t3 = t2.listenerHasValue_1 === true;
@@ -5457,7 +5459,7 @@ _Future__propagateToListeners_closure: {"": "Closure;box_2-,listener_3-",
 
 "+_Future__propagateToListeners_closure": [],
 
-_Future__propagateToListeners_closure0: {"": "Closure;box_1-,box_2-,hasError_4-,listener_5-",
+_Future__propagateToListeners_closure0: {"": "Closure;box_2-,box_1-,hasError_4-,listener_5-",
   call$0: function() {
     var t1, value, error, test, matchesTest, e, s, t2, t3, t4, exception;
     t1 = {};
@@ -6278,7 +6280,21 @@ _cancelAndError_closure: {"": "Closure;subscription_0-,future_1-",
 
 _ForwardingStream: {"": "Stream;",
   listen$4$cancelOnError$onDone$onError: function(onData, cancelOnError, onDone, onError) {
-    return P._ForwardingStreamSubscription$(this, onData, onError, onDone, true === cancelOnError, H.getRuntimeTypeArgument(this, "_ForwardingStream", 0), H.getRuntimeTypeArgument(this, "_ForwardingStream", 1));
+    var $arguments, t1, t2, t3, t4;
+    $arguments = H.substitute(this.$as_ForwardingStream, H.getRuntimeTypeInfo(this));
+    t1 = $arguments == null ? null : $arguments[0];
+    $arguments = H.substitute(this.$as_ForwardingStream, H.getRuntimeTypeInfo(this));
+    t2 = $arguments == null ? null : $arguments[1];
+    t3 = $.get$_Zone__current();
+    t4 = true === cancelOnError ? 1 : 0;
+    t4 = new P._ForwardingStreamSubscription(this, null, onData, onError, onDone, t3, t4, null);
+    t4.$builtinTypeInfo = [t1, t2];
+    t1 = t4._zone;
+    t1._openCallbacks = t1._openCallbacks + 1;
+    t1 = t4.get$_handleData();
+    t2 = t4.get$_handleError();
+    t4._subscription = t4._liblib5$_stream._liblib5$_source.listen$3$onDone$onError(t1, t4.get$_handleDone(), t2);
+    return t4;
   },
   "+listen:1:3": 1,
   listen$3$onDone$onError: function(onData, onDone, onError) {
@@ -6358,29 +6374,9 @@ _ForwardingStreamSubscription: {"": "_BufferingStreamSubscription;_liblib5$_stre
   get$_handleDone: function() {
     return new P.BoundClosure$0(this, "_handleDone$0", null);
   },
-  _ForwardingStreamSubscription$5: function(_stream, onData, onError, onDone, cancelOnError, $S, $T) {
-    var t1, t2;
-    t1 = this.get$_handleData();
-    t2 = this.get$_handleError();
-    this._subscription = this._liblib5$_stream._liblib5$_source.listen$3$onDone$onError(t1, this.get$_handleDone(), t2);
-  },
   $as_BufferingStreamSubscription: function($S, $T) {
     return [$T];
-  },
-  static: {
-_ForwardingStreamSubscription$: function(_stream, onData, onError, onDone, cancelOnError, $S, $T) {
-  var t1, t2;
-  t1 = $.get$_Zone__current();
-  t2 = cancelOnError ? 1 : 0;
-  t2 = new P._ForwardingStreamSubscription(_stream, null, onData, onError, onDone, t1, t2, null);
-  H.setRuntimeTypeInfo(t2, [$S, $T]);
-  t2._BufferingStreamSubscription$4(onData, onError, onDone, cancelOnError, $T);
-  t2._ForwardingStreamSubscription$5(_stream, onData, onError, onDone, cancelOnError, $S, $T);
-  return t2;
-},
-
-"+new _ForwardingStreamSubscription:5:0": 1}
-
+  }
 },
 
 "+_ForwardingStreamSubscription": [],
@@ -9828,10 +9824,6 @@ Object: {"": ";",
     return this.noSuchMethod$1(this, H.createInvocationMirror("text", "get$text", 1, [], []));
   },
   "+text": 1,
-  get$uniqueString: function() {
-    return this.noSuchMethod$1(this, H.createInvocationMirror("uniqueString", "get$uniqueString", 1, [], []));
-  },
-  "+uniqueString": 1,
   get$uriPolicy: function() {
     return this.noSuchMethod$1(this, H.createInvocationMirror("uriPolicy", "get$uriPolicy", 1, [], []));
   },
@@ -10669,10 +10661,15 @@ _ElementCssClassSet: {"": "CssClassSetImpl;_element-",
 
 _EventStream: {"": "Stream;_target-,_eventType-,_useCapture-",
   listen$4$cancelOnError$onDone$onError: function(onData, cancelOnError, onDone, onError) {
-    var t1 = new W._EventStreamSubscription(0, this._target, this._eventType, onData, this._useCapture);
-    H.setRuntimeTypeInfo(t1, [H.getRuntimeTypeArgument(this, "_EventStream", 0)]);
-    t1._tryResume$0();
-    return t1;
+    var $arguments, t1, t2;
+    $arguments = H.substitute(this.$as_EventStream, H.getRuntimeTypeInfo(this));
+    t1 = $arguments == null ? null : $arguments[0];
+    t2 = new W._EventStreamSubscription(0, this._target, this._eventType, onData, this._useCapture);
+    t2.$builtinTypeInfo = [t1];
+    t1 = t2._onData;
+    if (t1 != null && t2._pauseCount <= 0)
+      J.$$dom_addEventListener$3$x(t2._target, t2._eventType, t1, t2._useCapture);
+    return t2;
   },
   "+listen:1:3": 1,
   listen$3$onDone$onError: function(onData, onDone, onError) {

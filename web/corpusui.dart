@@ -26,7 +26,7 @@ class CorpusUI
   
   CorpusUI()
   {
-    uniqueString = "jbseakyugrfvbi_fbveaiun";
+    uniqueString = "vbi_fb";
     selectedDatabase = -1;
     selectedDomain = -1;
     selectedDocs = new List<int>();
@@ -43,15 +43,15 @@ class CorpusUI
       ..classes.add("nav")
       ..classes.add("nav-pills")
       ..classes.add("nav-stacked");
-      databases.forEach((String dbName) {
+      for (int i = 0; i < databases.length; i++) {
         LIElement db = new LIElement();
         AnchorElement link = new AnchorElement()
-        ..id = dbName.replaceAll(" ", uniqueString)
-        ..text = dbName;
+        ..id = "database_$i"
+        ..text = databases[i];
         link.onClick.listen((MouseEvent e) => databaseClicked(e));
         db.append(link);
         databaseList.append(db);
-      });
+      }
       databaseSelect.innerHtml = "";
       databaseSelect.append(databaseList);
     });
@@ -103,7 +103,7 @@ class CorpusUI
     int clickedIndex = databases.indexOf(e.target.text);
     if (clickedIndex != selectedDatabase) {
       if (selectedDatabase >= 0) {
-        AnchorElement oldSelected = query("#" + databases.elementAt(selectedDatabase).replaceAll(" ", uniqueString));
+        AnchorElement oldSelected = query("#database_" + selectedDatabase.toString());
         oldSelected.parent.classes.remove("active");
       }
       selectedDatabase = clickedIndex;
@@ -122,7 +122,7 @@ class CorpusUI
     int clickedElement = domains.indexOf(e.target.text);
     if (selectedDomain != clickedElement) {
       if (selectedDomain >= 0) {
-        AnchorElement oldSelected = query("#" + domains.elementAt(selectedDomain).replaceAll(" ", uniqueString));
+        AnchorElement oldSelected = query("#domain_" + selectedDomain.toString());
         oldSelected.parent.classes.remove("active");
       }
       selectedDomain = clickedElement;
@@ -153,15 +153,15 @@ class CorpusUI
     ..classes.add("nav")
     ..classes.add("nav-pills")
     ..classes.add("nav-stacked");
-    domains.forEach((String domain) {
+    for (int i = 0; i < domains.length; i++) {
       LIElement domainEntry = new LIElement();
       AnchorElement link = new AnchorElement()
-      ..id = domain.replaceAll(" ", uniqueString)
-      ..text = domain;
+      ..id = "domain_$i"
+      ..text = domains[i];
       link.onClick.listen((MouseEvent e) => domainClicked(e));
       domainEntry.append(link);
       domainList.append(domainEntry);
-    });
+    }
     domainSelect.innerHtml = "";
     domainSelect.append(domainList);
   }
@@ -174,15 +174,15 @@ class CorpusUI
     ..classes.add("nav")
     ..classes.add("nav-pills")
     ..classes.add("nav-stacked");
-    docIds.forEach((String docId) {
+    for (int i = 0; i < docIds.length; i++) {
       LIElement docEntry = new LIElement();
       AnchorElement link = new AnchorElement()
-      ..id = docId
-      ..text = docId;
+      ..id = "doc_$i"
+      ..text = docIds[i];
       link.onClick.listen((MouseEvent e) => documentClicked(e));
       docEntry.append(link);
       documentList.append(docEntry);
-    });
+    }
     documentSelect.innerHtml = "";
     documentSelect.append(documentList);
   }

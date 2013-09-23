@@ -8,14 +8,6 @@ import "Settings.dart";
 
 class CorpusHelper
 {
-  static String dummyReturn = 
-"""
-<dbs>
-  <db id="test">
-  </db>
-</dbs>
-""";
-  
   static Future<List<String>> getCorpusDatabases()
   {
     Future<List<String>> ret = APIHelper.call("dbs", "GET")
@@ -23,10 +15,8 @@ class CorpusHelper
       List<String> databases = new List<String>();
       if (response.status < 400) {
         if (response.responseText.length > 0) {
-          print("Databases Response Text: " + response.responseText);
           DomParser parser = new DomParser();
           Document doc = parser.parseFromString(response.responseText, "text/xml");
-          //Document doc = parser.parseFromString(dummyReturn, "text/xml");
           ElementList dbs = doc.queryAll("db");
           dbs.forEach((Element db) {
             databases.add(db.attributes['id']);
@@ -47,10 +37,8 @@ class CorpusHelper
       List<String> domains = new List<String>();
       if (response.status < 400) {
         if (response.responseText.length > 0) {
-          print("Domains Response text: " + response.responseText);
           DomParser parser = new DomParser();
           Document doc = parser.parseFromString(response.responseText, "text/xml");
-          //Document doc = parser.parseFromString(dummyReturn, "text/xml");
           ElementList domainElements= doc.queryAll("domain");
           domainElements.forEach((Element domain) {
             domains.add(domain.attributes['id']);
@@ -71,10 +59,8 @@ class CorpusHelper
       List<String> docIds = new List<String>();
       if (response.status < 400) {
         if (response.responseText.length > 0) {
-          print("Docs Response text: " + response.responseText);
           DomParser parser = new DomParser();
           Document doc = parser.parseFromString(response.responseText, "text/xml");
-          //Document doc = parser.parseFromString(dummyReturn, "text/xml");
           ElementList docs = doc.queryAll("doc");
           docs.forEach((Element doc) {
             docIds.add(doc.attributes['id']);
@@ -118,7 +104,6 @@ class CorpusHelper
       queryString = queryString.substring(0, queryString.length - 1);
     }
     queryString += "'";
-    print("Calling ${url + queryString}");
     return url + queryString;
   }
 }
