@@ -74,6 +74,28 @@ class CorpusHelper
     return ret;
   }
   
+  static Future<bool> uploadXliffFile(File file, String dbName)
+  {
+    Completer<bool> completer = new Completer<bool>();
+    FileReader reader = new FileReader();
+    reader.onLoadEnd.listen((e) {
+      dbName = Uri.encodeComponent(dbName);
+      APIHelper.call("dbs/$dbName/docs", "POST", e.target.result)
+      .then((HttpRequest response) {
+        bool success = false;
+        if (response.status < 400) {
+          success = true;
+        } else {
+          print("Failed to upload file, server responded with: ");
+          print(response.status.toString() + ": " + response.responseText);
+        }
+        completer.complete(success);
+      });
+    });
+    reader.readAsArrayBuffer(file);
+    return completer.future;
+  }
+  
   static String constructDownloadAllString(String database, String domain, [bool fullDocs = true])
   {
     Settings settings = new Settings();

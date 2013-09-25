@@ -60,6 +60,8 @@ class CorpusUI
     element.onClick.listen((MouseEvent e) => this.downloadSelectedClicked(e));
     element = query("#download-all");
     element.onClick.listen((MouseEvent e) => this.downloadAllClicked(e));
+    element = query("#file-upload-button");
+    element.onClick.listen((MouseEvent e) => this.uploadFile(e));
   }
   
   Future<bool> loadDatabases()
@@ -239,5 +241,65 @@ class CorpusUI
     } else {
       print("Failed to download files, no database or domain selected");
     }
+  }
+  
+  void uploadFile(MouseEvent e)
+  {
+    this.clearUploadFeedback();
+    File xliffFile;
+    InputElement fileInput = query("#file-upload");
+    FileList files = fileInput.files;
+    if (files.length > 0) {
+      xliffFile = files.elementAt(0);
+      if (xliffFile.type == "application/x-xliff") {
+        InputElement dbNameInput = query("#file-db-name");
+        String dbName = dbNameInput.value;
+        if (dbName.length > 0) {
+          CorpusHelper.uploadXliffFile(xliffFile, dbName)
+          .then((bool success) {
+            if (success) {
+              this.displayUploadSuccess("Yor file has been uploaded successfully");
+            } else {
+              this.displayUploadError("Your file was rejected by the server");
+            }
+          });
+        } else {
+          this.displayUploadError("Please enter the name of the database you want to store the file in");
+        }
+      } else {
+        this.displayUploadError("The file you uploaded is not an Xliff. Please use a file with an xliff or xlf extension");
+      }
+    } else {
+      this.displayUploadError("You must select a file to upload");
+    }
+  }
+  
+  void displayUploadError(String error)
+  {
+    DivElement errorDiv = query("#file-upload-feedback");
+    errorDiv.classes.add("alert");
+    errorDiv.classes.add("alert-danger");
+    ParagraphElement errorText = new ParagraphElement()
+    ..text = error;
+    errorDiv.append(errorText);
+  }
+  
+  void displayUploadSuccess(String message)
+  {
+    DivElement feedbackDiv = query("#file-upload-feedback");
+    feedbackDiv.classes.add("alert");
+    feedbackDiv.classes.add("alert-success");
+    ParagraphElement successText = new ParagraphElement()
+    ..text = message;
+    feedbackDiv.append(successText);
+  }
+  
+  void clearUploadFeedback()
+  {
+    DivElement errorDiv = query("#file-upload-feedback");
+    errorDiv.classes.remove("alert");
+    errorDiv.classes.remove("alert-danger");
+    errorDiv.classes.remove("alert-success");
+    errorDiv.innerHtml = "";
   }
 }
